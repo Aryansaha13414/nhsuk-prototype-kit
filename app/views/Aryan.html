@@ -1,0 +1,43 @@
+{% extends 'layout.html' %}
+
+{% block pageTitle %}
+    Aryan's Page
+{% endblock %}
+{% block beforeContent %}
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-width-container">
+      <ol class="nhsuk-breadcrumb__list">
+        <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/index">Home Page</a></li>
+        <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/Aryan">Aryan's Page</a></li>
+      </ol>
+      <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/index">Home Page</a></p>
+    </div>
+  </nav>
+{% endblock %}
+{% block content %}
+
+<h1>Welcome to my page</h1>
+
+<p>
+    Hello, I am a student who is highly interested
+    in computer science. 
+</p>
+
+<a href="www.google.co.uk">
+    This links to google 
+</a>
+
+<br>
+<a href="/index">
+    This leads to the index
+</a>
+
+<figure class="nhsuk-image">
+    <img class="nhsuk-image__img" src="https://cdn.pixabay.com/photo/2014/05/02/21/49/laptop-336373_1280.jpg" alt="Just a computer.">
+    <figcaption class="nhsuk-image__caption">
+      Water is very harmful to laptops.
+    </figcaption>
+  </figure>
+
+{% endblock %}
+
